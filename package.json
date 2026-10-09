@@ -1,0 +1,33 @@
+{
+  "name": "@suderinta/lithuanian-company-validator",
+  "version": "1.0.0",
+  "description": "Oficiali Lietuvos įmonių kodų (Modulus 11), PVM mokėtojo kodų ir IBAN banko sąskaitų validavimo biblioteka.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suderinta/lithuanian-company-validator.git"
+  },
+  "keywords": [
+    "lietuva",
+    "lithuania",
+    "imones-kodas",
+    "pvm",
+    "vmi",
+    "iban",
+    "modulus11",
+    "registru-centras",
+    "suderinta"
+  ],
+  "author": "Suderinta <labas@suderinta.lt> (https://www.suderinta.lt)",
+  "license": "MIT",
+  "homepage": "https://www.suderinta.lt/skaiciuokles/pvm-skaiciuokle"
+}
